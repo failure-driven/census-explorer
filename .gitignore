@@ -3,6 +3,7 @@
 /tmp/*
 /public/*
 !/data/.keep
+!/data/*.md5
 !/log/.keep
 !/tmp/.keep
 !/public/.keep

@@ -27,3 +27,9 @@ dev_env: check_tools
 prettier:
 	bin/makefile/prettier
 
+# Data fetching
+
+fetch_all_data:
+	rake census_data:fetch:data_packs
+	rake census_data:fetch:asgs_shape_files
+
