@@ -1,0 +1,21 @@
+{
+  "name": "census-explorer",
+  "version": "0.0.1",
+  "description": "Census Explorer for Australian Census data",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/failure-driven/census-explorer.git"
+  },
+  "author": "Michael Milewski",
+  "homepage": "https://github.com/failure-driven/census-explorer#readme",
+  "dependencies": {
+    "milligram": "^1.4.1"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.2"
+  }
+}

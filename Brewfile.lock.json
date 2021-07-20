@@ -1,0 +1,16 @@
+{
+  "entries": {
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "3.2.3",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "2d9285f376ac22b7db19a6347dfacda76726b68f",
+        "CLT": "12.5.1.0.1.1623191612",
+        "Xcode": "12.5",
+        "macOS": "11.4"
+      }
+    }
+  }
+}

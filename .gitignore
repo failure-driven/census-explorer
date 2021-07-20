@@ -1,0 +1,11 @@
+/data/*
+/log/*
+/tmp/*
+/public/*
+!/data/.keep
+!/log/.keep
+!/tmp/.keep
+!/public/.keep
+
+node_modules
+build

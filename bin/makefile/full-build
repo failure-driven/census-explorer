@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+set -e
+
+bundle install
+
+# yarn
+# yarn lint
+# yarn check-format
+
+bundle exec rubocop
+bundle exec rspec

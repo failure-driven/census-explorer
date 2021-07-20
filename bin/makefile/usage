@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+set -e
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+NC='\033[0m'
+
+_usage() {
+  echo
+  echo -e "Hi $(whoami)!"
+  echo
+  echo -e "${YELLOW}make fresh${NC}             build whole project from start to finish"
+  echo -e "${YELLOW}make clean${NC}             remove data and bring to a clean state"
+  echo -e "${YELLOW}make deploy${NC}            deploy to production environment"
+  echo
+  echo -e "${GREEN}Development Setup${NC}"
+  echo
+  echo -e "${YELLOW}make check_tools${NC}       check required tools"
+  echo -e "${YELLOW}make dev_env${NC}           install required developer environment"
+  echo
+  echo -e "${GREEN}Workflow${NC}"
+  echo
+  echo -e "${YELLOW}make prettier${NC}          apply linting rules"
+  echo -e "${YELLOW}make build${NC}             run full test suite"
+  echo
+}
+_usage
